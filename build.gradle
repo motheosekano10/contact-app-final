@@ -1,0 +1,9 @@
+buildscript {
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
